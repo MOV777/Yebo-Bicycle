@@ -91,7 +91,7 @@ body {
       visibility: hidden;
       transition: 0.3s all ease-in-out;
       li {
-         padding: 40px 0;
+         padding: 30px 0;
          &:nth-child(3) {
             padding-right: 0;
          }
@@ -151,6 +151,7 @@ body {
       flex-direction: column;
       justify-content: flex-start;
       background-color: #4b4857;
+      overflow-y: auto;
    }
 
    .nav__list.active {
